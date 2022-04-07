@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 0rem 2rem;
+}
+
+/* utilites */
+
+/*    */
+#header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+#header_content .languages {
+  color: blue;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.main_content {
+  max-width: 70vw;
+}
+.side_content {
+  max_width: 25vw;
+}
+#deseribe_value {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.content_details {
+  max-width: 70vw;
+}
+.content_details_opening_describe {
+  margin-bottom: 1rem;
+}
+.content_details_tableoOfContents {
+  margin-bottom: 1rem;
+  width: 11rem;
+  height: fit-content;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+.tableoOfContents_heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.tableoOfContents_heading .toggleButton {
+  background-color: inherit;
+  border: none;
+}
+
+.content_details_tableoOfContents ol li {
+  margin-right: 1rem;
+}
+.content_details_tableoOfContents ol li:not(li:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.value_basic_details {
+  border: 1px solid black;
+}
+
+.value_basic_details a {
+  text-decoration: none;
+  text-align: center;
+}
+.value_basic_details_nameFood {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  background-color: #90ee90;
+}
+
+img.applePic {
+}
+
+.value_basic_details_kindSort_header {
+  padding: 0 1rem;
+  background-color: #90ee90;
+  text-align: center;
+}
+.value_basic_details_scientificName_header {
+  padding: 0 1rem;
+  background-color: #90ee90;
+  text-align: center;
+}
+.value_basic_details_scientificName_name {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.value_basic_details_table li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_header_block {
+  height: 2rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.section_header_heading {
+  display: flex;
+  align-items: center;
+}
+
+.section_details {
+  margin: 1rem 0;
+}
+
+.picture {
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem 0;
+  background-color: #f8f9fa;
+}

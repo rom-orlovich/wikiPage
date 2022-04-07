@@ -119,7 +119,7 @@ img.applePic {
   border-bottom: 1px solid black;
   margin-bottom: 1.2rem;
 }
-
+/** sections styles*/
 .section_header_heading {
   display: flex;
   align-items: center;
@@ -137,7 +137,7 @@ img.applePic {
   background-color: #f8f9fa;
   width: fit-content;
 }
-
+/** nutrition table */
 .nutrition_values {
   background-color: #d2d8de;
   width: 15rem;
@@ -168,7 +168,9 @@ td {
   background-color: #ffecb2;
   height: 1px;
 }
-.picture_gallary {
+
+/** picture gallery*/
+.picture_gallery {
   width: 100%;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -176,6 +178,15 @@ td {
   grid-template-columns: repeat(4, 20%);
 }
 
-.picture_gallary .picture img {
+.picture_gallery .picture img {
   width: 100%;
+}
+
+.table_varieties {
+  border-spacing: 10px;
+}
+table.table_varieties td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
 }

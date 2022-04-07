@@ -6,7 +6,10 @@
 main {
   padding: 0rem 2rem;
 }
-
+a {
+  text-decoration: none;
+  color: rgb(61, 61, 242);
+}
 /* utilites */
 
 /*    */
@@ -31,15 +34,15 @@ main {
   max-width: 70vw;
 }
 .side_content {
-  max_width: 25vw;
+  max-width: 25vw;
 }
 #deseribe_value {
   display: flex;
   /* justify-content: space-between; */
 }
 .content_details {
-  max-width: 70vw;
 }
+
 .content_details_opening_describe {
   margin-bottom: 1rem;
 }
@@ -128,4 +131,39 @@ img.applePic {
   border: 1px solid black;
   margin: 1rem 0;
   background-color: #f8f9fa;
+}
+
+.nutrition_values {
+  background-color: #d2d8de;
+  width: 15rem;
+  border: 1px solid #aaaaaa;
+  font-size: 0.9rem;
+}
+.nutrition_values a {
+  color: #0645ad;
+}
+.nutrition_values caption {
+  width: 100%;
+  text-align: center;
+  background-color: #ffecb2;
+}
+.nutrition_values caption b {
+  font-size: 1.2rem;
+}
+
+.nutrition_values th,
+td {
+  text-align: right;
+  vertical-align: top;
+}
+.nutrition_values td {
+  text-align: center;
+}
+.nutrition_values .tr_border {
+  background-color: #ffecb2;
+  height: 1px;
+}
+.picture_gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
